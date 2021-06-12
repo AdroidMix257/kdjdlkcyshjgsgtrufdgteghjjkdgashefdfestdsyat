@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+  background-image: url(https://www.wallpapermaiden.com/wallpaper/2271/download/1920x1080/naruto-team-7-sakura-sasuke-hinata.png);
+  font-family: 'Lobster', cursive;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #308A50;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #3E403F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #49AB70;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.posts{
+  background-color: #308A50;
+  font-family: 'Pacifico', cursive;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: #3E403F;
+  margin: 10px 10px;
+}
+.button{
+  background-color: #3E403F;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  width: 105px;
+}
+
+.slider {
+  max-width: 1280px;
+  width: 100%;
+  margin:0 auto;
+}
+
+.slick-arrow {
+  z-index: 2;
+}
+
+.gallery{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+
+.gallery > img {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 50px
+}
+
+footer p {
+  text-align: center;
+  font-size: 30px
